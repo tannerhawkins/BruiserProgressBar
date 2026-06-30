@@ -24,8 +24,8 @@ public class ProgressBarUi extends BasicProgressBarUI {
     Icon selectedReverseIcon;
 
     public ProgressBarUi() {
-        selectedIcon = Icons.TRAINER;
-        selectedReverseIcon = Icons.RTRAINER;
+        selectedIcon = Icons.BRUISER;
+        selectedReverseIcon = Icons.BRUISER;
     }
 
     @SuppressWarnings({"MethodOverridesStaticMethodOfSuperclass", "UnusedDeclaration"})
@@ -177,8 +177,8 @@ public class ProgressBarUi extends BasicProgressBarUI {
         g2.setPaint(mainColor);
         g2.fill(new RoundRectangle2D.Float(2f * off, 2f * off, amountFull - JBUIScale.scale(5), h - JBUIScale.scale(5), JBUIScale.scale(7), JBUIScale.scale(7)));
 
-        Icons.WTRAINER.paintIcon(progressBar, g2, amountFull - JBUIScale.scale(-13), -JBUIScale.scale(-1));
-        Icons.PIKACHU.paintIcon(progressBar, g2, amountFull - JBUIScale.scale(1), -JBUIScale.scale(-1));
+        Icons.BRUISER.paintIcon(progressBar, g2, amountFull - JBUIScale.scale(-13), -JBUIScale.scale(-1));
+        Icons.BRUISER.paintIcon(progressBar, g2, amountFull - JBUIScale.scale(1), -JBUIScale.scale(-1));
         g2.translate(0, -(c.getHeight() - h) / 2);
 
         // Deal with possible text painting
