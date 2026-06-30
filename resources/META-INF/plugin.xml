@@ -1,9 +1,9 @@
 <idea-plugin>
-  <id>manjaro.ptpb</id>
+  <id>tannerhawkins.bruiserProgressBar</id>
   <name>Bruiser Progress Bar</name>
-  <version>1.7</version>
+  <version>1.0</version>
   <idea-version since-build="193"/>
-  <vendor email="kylian.meulin@gmail.com">KikiManjaro</vendor>
+  <vendor email="tanner.hawkins2@cfacorp.com">Tanner Hawkins</vendor>
 
   <description><![CDATA[
       This is the Bruiser Progress Bar for IJ based IDEs based on the Nyan Progress Bar by Dmitry Batkovitch.
